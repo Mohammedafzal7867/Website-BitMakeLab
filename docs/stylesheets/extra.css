@@ -1,0 +1,36 @@
+/* See https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss for a list of all available colours */
+:root {
+  --md-primary-fg-color: #DC4A26;
+  --md-typeset-a-color: #DC4A26;
+}
+
+/* Example 2: Target specific HTML elements directly */
+h1 {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+
+.md-typeset__table table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 2.1em;
+    font-family: sans-serif;
+    border: 1px solid #000000;    
+    display: table;
+    width: 100%;
+    font-size: 1em;
+}
+
+/* Change table padding and text alignment */
+.md-typeset__table table:not([class]) td {
+    padding: 12px 16px;
+    font-size: 1.4em;
+}
+
+.md-typeset__table table:not([class]) th {    
+    color: white;
+    background: black;
+    padding: 12px 16px;
+    font-size: 1.4em;
+}
