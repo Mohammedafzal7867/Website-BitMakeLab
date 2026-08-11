@@ -3,7 +3,7 @@ A potentiometer provides an analogue input, which means that it can provide a ra
 
 Use it to control things you want to vary over a range of values, such as the speed of a motor, the intensity of a light and much more!
 
-![Potentiometer](potentiometer.jpg)
+![Potentiometer](index.jpg)
 
 #### Wiring
 Use a GVS cable to connect the sensor.  This has 3 wires, blue, red and black:
