@@ -12,7 +12,9 @@ Use a GVS cable to connect the sensor. This has 3 wires, blue, red and black:
 Wire up as follows, using the Edge Connector or Motor Controller board:
 
 ### Bend Sensor	Microbit
-3-pin connector	P0 3-pin connector
+| Component | Micro:bit |
+| --- | --- |
+| 3-pin connector | P0 (Analogue Pin) |
 ![code](wiring.png)
 
 You don't have to use pin P0. You can use any analogue pin. Just remember to adjust your code accordingly.
